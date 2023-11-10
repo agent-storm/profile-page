@@ -87,6 +87,10 @@ body{
     width:90vw;
     height: 10%;
 }
+#project-text {
+    font-size: 3.5vw;
+    color: #D0CFCF;
+}
 .projects-container {
     display: flex;
     flex-flow: row;
@@ -120,7 +124,6 @@ body{
     align-items: center;
     width:400px;
     height: 500px;
-    /* background-color: Red; */
 }
 #test-text {
     text-align: center;
