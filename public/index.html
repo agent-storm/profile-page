@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        import { getAnalytics } from "firebase/analytics";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyCgI_Otzz90Ud5PTazRvuWs9AkxEXWvuQ8",
+        authDomain: "srinith-portfolio.firebaseapp.com",
+        projectId: "srinith-portfolio",
+        storageBucket: "srinith-portfolio.appspot.com",
+        messagingSenderId: "615147329817",
+        appId: "1:615147329817:web:ce1a64fbdcf229d0790d88",
+        measurementId: "G-9RGCL4QMXL"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+		<link rel="stylesheet" href="profile.css">
+		<script src="profile.js" defer></script>
+</head>
+<body>
+	<div class="main-profile-bg">
+			<div class="profile-text">
+					<div class="upper-name-text-div"> <h1 id="upper-name-text">Sai Srinith<br>Gujarathi</h1> </div>
+					<div class="lower-desc-text-div"><p id="lower-desc-text">&emsp;Hey, you've reached Srinith's page, I love building stuff and learning how to build stuff, please feel free to check out some of my work below.</p></div>
+			</div>
+			<div class="profile-image-div">
+					<img id="profile-pic" src="assets\profile-pic.png">
+			</div>
+	</div>
+	<div class="scrolldown-gif-div">
+			<img src="assets/icons8-double-down.gif" id="scrolldown-gif">
+	</div>
+	<div class="projects-container-div">
+			<div class="project-container-title-div">
+					<h1 style="font-size: 36px;">Projects</h1>
+			</div>
+			<div class="projects-container">
+					<div class="project-image-div"><img src="assets\project-sample-pic.png" id="project-image" ></div>
+					<div class="project-description">
+							<h2>This is a sample description of the project</h2>
+							<button onclick="LoginPageSwitcher()" class="calset-login-btn">CalSET</button>
+					</div>
+			</div>
+	</div>
+
+</body>
+</html>
