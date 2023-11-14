@@ -7,7 +7,7 @@ window.addEventListener('scroll',() => {
     console.log(scrollPx);
     if(scrollPx<430){
         document.body.style.backgroundColor = "#FFFBFE";
-    } else if(scrollPx>930 && scrollPx<1300) {
+    } else if(scrollPx>830 && scrollPx<1300) {
         document.body.style.backgroundColor = "#373F51"; //"#1A1B25"
     }
 });

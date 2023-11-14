@@ -65,7 +65,7 @@ body{
 }
 #scrolldown-gif {
     margin-top: 1.2vh;
-    margin-bottom: 90px;
+    margin-bottom: 15px;
     height: 5vh;
     border-radius: 15px;
 }
@@ -76,7 +76,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    height: 60vh;
+    margin-bottom: 50vh;
+    /* overflow-y: scroll; */
     flex-direction: column;
 }
 .project-container-title-div {
@@ -87,20 +90,29 @@ body{
     width:90vw;
     height: 10%;
 }
+.projects-scrolling-div {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    overflow-y: scroll;
+}
 #project-text {
     font-size: 3.5vw;
     color: #D0CFCF;
 }
 .projects-container {
     display: flex;
-    flex-flow: row;
     flex-direction: row;
+    height: 100%;
     width:100%;
-    height: 90vh;
+    /* height: 90vh; */
 }
 .project-image-div {
     /* width: 10vw; */
-    width:50%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
 }
 #project-image {
     width:45vw;
@@ -108,7 +120,8 @@ body{
 .project-description {
     display:flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    height:100%;
     /* width: 10vw; */
 }
 .calset-login-btn {
