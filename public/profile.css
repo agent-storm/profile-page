@@ -60,9 +60,11 @@ body{
     justify-content: right;
     width:50%;
     overflow: hidden;
+    object-fit: contain;
 }
 #profile-pic {
     height: 80vh;
+    width:80%;
     /* width:100vw; */
     transition: 1s;
 }
