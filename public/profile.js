@@ -16,7 +16,7 @@ function scrollToProjects(){
     element.scrollIntoView();
 }
 let curElementIndx = 0;
-let ProjectsList = Array("stormcode-app","auto-vid-editor","score-scrapper")
+let ProjectsList = Array("stormcode-app","auto-vid-editor","score-scrapper","cal-set")
 function ProjectScroll(direction) {
     console.log(ProjectsList[curElementIndx]);
     if(direction == "up") {
@@ -24,7 +24,7 @@ function ProjectScroll(direction) {
         curElementIndx-=1;
     } 
     else if (direction == "down") {
-        if(curElementIndx == 2) return;
+        if(curElementIndx == 3) return;
         curElementIndx+=1;
     }
     let projectDiv = document.getElementById(ProjectsList[curElementIndx]);

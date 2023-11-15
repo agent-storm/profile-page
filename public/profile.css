@@ -65,7 +65,6 @@ body{
 #profile-pic {
     height: 80vh;
     width:80%;
-    /* width:100vw; */
     transition: 1s;
 }
 #scrolldown-gif {
@@ -84,7 +83,6 @@ body{
     width: 90%;
     height: 48vh;
     margin-bottom: 50vh;
-    /* overflow-y: scroll; */
     flex-direction: row;
 }
 .project-container-title-div {
@@ -135,6 +133,7 @@ body{
 }
 #project-image {
     width:45vw;
+    border-radius: 20px;
 }
 .project-description-div {
     display:flex;
