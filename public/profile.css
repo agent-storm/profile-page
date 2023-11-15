@@ -101,6 +101,18 @@ body{
     height: 100%;
     margin-right:5vw;
 }
+.project-up-down-btns {
+    transition: 0.5s;
+}
+.project-up-down-btns:hover {
+    transform: scale(1.09);
+}
+#project-up-btn {
+    margin-bottom: 1vh;
+}
+#project-down-btn {
+    margin-top: 1vh;
+}
 .projects-scrolling-div {
     display: flex;
     flex-direction: column;
@@ -114,6 +126,7 @@ body{
     font-size: 5vw;
     color: #A9ACA9;
 }
+
 .projects-container {
     display: flex;
     flex-direction: row;
@@ -138,8 +151,10 @@ body{
 .project-description-div {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     height:100%;
+    margin-right:3vw;
 }
 /* .calset-login-btn {
     width:30%;
@@ -154,6 +169,8 @@ body{
 .project-description {
     color:#A9ACA9;
     font-size: 2vh;
+    font-family: "Inter";
+    font-weight: 400;
 }
 #testing {
     display: flex;

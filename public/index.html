@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STORM</title>
+	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 		<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
 		<script type="module">
 			// Import the functions you need from the SDKs you need
@@ -49,41 +50,41 @@
 	</div>
 	<div class="projects-container-div" id="projects-container-div">
 			<div class="scroll-btns-div">
-				<a onclick="ProjectScroll('up')"><img src="assets\icons8-chevron-up-60.png" ></a>
-				<a onclick="ProjectScroll('down')"><img src="assets\icons8-chevron-down-60.png"></a>
+				<a onclick="ProjectScroll('up')" class="project-up-down-btns" id="project-up-btn"><img src="assets\icons8-chevron-up-60.png" ></a>
+				<a onclick="ProjectScroll('down')" class="project-up-down-btns" id="project-down-btn"><img src="assets\icons8-chevron-down-60.png"></a>
 			</div>
 			<div class="projects-scrolling-div" id="projects-scrolling-div">
 				<div class="projects-container" id="stormcode-app">
-						<div class="project-image-div"><img src="assets\stormcode-pic.png" class="project-img" id="project-image" ></div>
-						<div class="project-description-div">
-								<h1 class="project-title-name">STORMCODE APP</h1>
-								<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple application made to simplify the learning experience of students, in this app, all the notes, previous year papers, academic syllabus will be available to study and coding in different languages like java, python and c is also possible, this eliminates the  hassle of downloading multiple IDE's for multiple languages.</h2>
-						</div>
+					<div class="project-description-div">
+						<h1 class="project-title-name">STORMCODE APP</h1>
+						<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple application made to simplify the learning experience of students, in this app, all the notes, previous year papers, academic syllabus will be available to study and coding in different languages like java, python and c is also possible, this eliminates the  hassle of downloading multiple IDE's for multiple languages.</h2>
+					</div>
+					<div class="project-image-div"><img src="assets\stormcode-pic.png" class="project-img" id="project-image" ></div>
 				</div>
 				<div class="projects-container" id="auto-vid-editor">
-					<div class="project-image-div"><img src="assets\auto-videditor-pic.png" class="project-img" id="project-image" ></div>
 					<div class="project-description-div">
-							<h1 class="project-title-name">AUTOMATIC-VIDEO-EDITOR</h1>
-							<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple Terminal based application that takes a image and audio file/spotify playlist link and outputs a video of desired length in mp4 format.
-								The output file is saved in mp3 form and the length of the video is equal to the length of mp3 file or the spotify playlist.
-								The output file is saved in mp3 form and the length of the video is equal to the length of mp3 file
-								or the spotify playlist.</h2>
+						<h1 class="project-title-name">AUTOMATIC-VIDEO-EDITOR</h1>
+						<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple Terminal based application that takes a image and audio file/spotify playlist link and outputs a video of desired length in mp4 format.
+							The output file is saved in mp3 form and the length of the video is equal to the length of mp3 file or the spotify playlist.
+							The output file is saved in mp3 form and the length of the video is equal to the length of mp3 file
+							or the spotify playlist.</h2>
 					</div>
+					<div class="project-image-div"><img src="assets\auto-videditor-pic.png" class="project-img" id="project-image" ></div>
 				</div>
 				<div class="projects-container" id="score-scrapper">
-					<div class="project-image-div"><img src="assets\score-scrapper-pic.png" class="project-img" id="project-image" ></div>
 					<div class="project-description-div">
-							<h1 class="project-title-name">SCORES-SCRAPPER</h1>
-							<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main goal of the project is to return a file(s) containing data about the contest held by codechef known as STARTERS. Basically by usuing selenium I can get the contest rankings site and choose my college as the filter, then by using Beautiful Soup (Python) I can get the raw HTML data and process it furhter for my needs, then finally by using xlsxwriter I can store the data in the form of xlsx sheets for each Division of the contest.</h2>
+						<h1 class="project-title-name">SCORES-SCRAPPER</h1>
+						<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main goal of the project is to return a file(s) containing data about the contest held by codechef known as STARTERS. Basically by usuing selenium I can get the contest rankings site and choose my college as the filter, then by using Beautiful Soup (Python) I can get the raw HTML data and process it furhter for my needs, then finally by using xlsxwriter I can store the data in the form of xlsx sheets for each Division of the contest.</h2>
 					</div>
+					<div class="project-image-div"><img src="assets\score-scrapper-pic.png" class="project-img" id="project-image" ></div>
 				</div>
 				<!-- If adding a new project remember to updatet the JS file @ProjectScroll() -->
 				<div class="projects-container" id="cal-set">
-					<div class="project-image-div"><img src="assets\cal-set-pic.png" class="project-img" id="project-image" ></div>
 					<div class="project-description-div">
-							<h1 class="project-title-name">CAL-SET</h1>
-							<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cal-set is a web app that can be used to selectively get data about the contests held by various hosts such as Codechef, CodeForces, HackerRank, Leet code, etc. Ultimatly the app should be able to craete a event and upload it to your google calander for each contest so that you get notified when a contest is about to be held.</h2>
+						<h1 class="project-title-name">CAL-SET</h1>
+						<h2 class="project-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cal-set is a web app that can be used to selectively get data about the contests held by various hosts such as Codechef, CodeForces, HackerRank, Leet code, etc. Ultimatly the app should be able to craete a event and upload it to your google calander for each contest so that you get notified when a contest is about to be held.</h2>
 					</div>
+					<div class="project-image-div"><img src="assets\cal-set-pic.png" class="project-img" id="project-image" ></div>
 				</div>
 			</div>
 	</div>
